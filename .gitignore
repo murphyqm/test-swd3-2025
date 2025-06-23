@@ -1,0 +1,4 @@
+*.sh
+*.egg-info
+src/amazing_project/__pycache__/*
+tests/__pycache__/*
