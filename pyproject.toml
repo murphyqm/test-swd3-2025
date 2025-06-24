@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "amazing_project"
 version = "0.1.2"
 description = "Brief description"
-authors = [{name = "Your Name"}]
+authors = [{name = "Maeve Murphy Quinlan"}]
 requires-python = ">=3.13"
 
 [tool.setuptools.packages.find]
