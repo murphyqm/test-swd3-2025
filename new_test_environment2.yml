@@ -1,0 +1,21 @@
+name: test-env-2
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.13
+  - pytest
+  - blackd
+  - isort
+
+  # remove/modify these as needed
+  - numpy
+  - pandas
+
+  # keep this to install your Python package locally
+  - pip
+  - pip:
+    - marimo
+    - amazing_project@git+https://github.com/murphyqm/test-swd3-2025@v0.1.0
